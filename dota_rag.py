@@ -57,7 +57,7 @@ def skynet():
     template = '''You are Skynet, an expert on Dota 2 lore, and you know the backstories of all the heroes in Dota 2.
 Your job is to answer questions from users based on the lore of the heroes. You will retrieve the most relevant lore based on the user’s question.
 
-Here is the history of conversations with Skynet (if any): {full_context}
+Here is the history of conversations with Skynet (if any): {context}
 
 Please refer to the lore of the relevant hero and, based on the lore, respond to the following question in a clear and accurate manner. If you cannot find the information, kindly let the user know that you don't have an answer.
 
