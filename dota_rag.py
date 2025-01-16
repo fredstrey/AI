@@ -50,7 +50,7 @@ def skynet():
     #Criando FAISS pra indexação
     index = create_faiss_index(embeddings)
     
-    #Iniciando o modelo
+    # indicando o modelo
     ollama_model = OllamaLLM(model="llama3.2")
     
     #Criando o prompt (mantendo o contexto da conversa)
